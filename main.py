@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from plot_utils import colours, plot_monthly_graphs
-from prod_standardization import load_and_standardize_production
+from prod_stand import load_and_standardize_production
 
 def list_month_files(year_folder):
     month_names = ['janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho',
@@ -15,11 +15,11 @@ def list_month_files(year_folder):
 
 def main():
     line_color = colours()
-    year = input("Ano: ").strip()
+    year = input("Diretório: ").strip()
     year_folder = os.path.join('.', year)
 
     if not os.path.isdir(year_folder):
-        print(f"Ficheiro '{year_folder}' não existe.")
+        print(f"Diretório '{year_folder}' não existe.")
         return
 
     month_files = list_month_files(year_folder)

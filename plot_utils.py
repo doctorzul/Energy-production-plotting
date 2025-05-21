@@ -110,6 +110,9 @@ def plot_monthly_graphs(filepaths, line_color, producao_data=None):
     for j in range(num_files, len(axes)):
         fig.delaxes(axes[j])
 
-    plt.savefig("consumo_anual.png", dpi=150)
-    plt.close(fig)
-    print("Gráfico guardado como consumo_anual.png")
+    # Remove file saving and figure closing
+    # plt.savefig("consumo_anual.png", dpi=150)
+    # plt.close(fig)
+    # print("Gráfico guardado como consumo_anual.png")
+
+    return fig
