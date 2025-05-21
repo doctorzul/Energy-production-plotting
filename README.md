@@ -1,7 +1,6 @@
 # Monthly Energy Consumption & Production Visualizer
 
-A Python script to visualize monthly energy consumption from Excel files and overlay standardized production data (like solar generation) for comparison. Created at the request of my dad. Monetarily unpaid, but compensated in the form of daily feedings, which we common folk usually call “meals” (his words, not mine).
-
+A Python script to visualize monthly energy consumption from Excel files and overlay standardized production data (like solar generation) for comparison. Created at the request of my dad. Monetarily unpaid word, but compensated in the form of daily feedings, which we common folk usually call “meals” (his words, not mine).
 
 ## Features
 
@@ -10,14 +9,6 @@ A Python script to visualize monthly energy consumption from Excel files and ove
 - Generates clear, easy-to-interpret plots for each month showing consumption and production side-by-side.
 - Handles missing or incomplete data gracefully by interpolation and filling gaps.
 - Outputs intuitive graphs that help analyze patterns and compare consumption vs. production.
-
-## How to Use
-
-1. Organize your data in folders named by year (e.g., `2024/`).
-2. Inside each year folder, place monthly Excel files named by month in Portuguese (`janeiro.xlsx`, `fevereiro.xlsx`, etc.).
-3. Optionally add a `producao.xlsx` file with detailed production data in 10-minute intervals.
-4. Run the script and input the year you want to visualize.
-5. View the generated monthly graphs showing your consumption and production data.
 
 ## Technical Details
 
