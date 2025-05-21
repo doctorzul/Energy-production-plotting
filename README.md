@@ -1,6 +1,7 @@
 # Monthly Energy Consumption & Production Visualizer
 
-This Python tool helps you visualize monthly energy consumption data and optionally overlay production data (e.g., solar energy generation) for a given year.
+A Python script to visualize monthly energy consumption from Excel files and overlay standardized production data (like solar generation) for comparison. Created at the request of my dad. Monetarily unpaid, but compensated in the form of daily feedings, which we common folk usually call “meals” (his words, not mine).
+
 
 ## Features
 
