@@ -4,7 +4,7 @@ A Python script to visualize monthly energy consumption from Excel files and ove
 
 ## Features
 
-- Reads monthly consumption Excel files (`janeiro.xlsx`, `fevereiro.xlsx`, etc.) from a year folder.
+- Reads monthly consumption Excel files (`janeiro.xlsx`, `fevereiro.xlsx`, etc.) from a folder.
 - Optionally loads a production Excel file (named anything you like) containing energy production data, standardized and averaged on 15-minute intervals.
 - Generates clear, easy-to-interpret plots for each month showing consumption and production side-by-side.
 - Handles missing or incomplete data gracefully by interpolation and filling gaps.
@@ -23,7 +23,7 @@ A Python script to visualize monthly energy consumption from Excel files and ove
 
 ## Requirements
 
-- Python 3.x
+- `python 3.x`
 - `pandas`
 - `matplotlib`
 - `openpyxl` (for Excel reading)
